@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Document</title>
 </head>
-<body>
-  
+<body> 
+  <input type="text">
+  <div>
+    <p>node.js webpack background-color
+      background-image background-position background-attachment background-repeat
+      background-origin background-clip </p>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <section class="flex">
+    <p class="item" style="order: 1">1</p>
+    <p class="item">2</p>
+    <p class="item" >3</p>
+    <p class="item">4</p>
+    <p class="item">5</p>
+    <p class="item">6</p>
+  </section>
+  <script>
+    var __proto__ = "123"
+    var o = { __proto__ }
+    var o1 = { __proto__() { return "32" } }
+    var o2 = { ['__proto' + '__']: {} }
+    var o3 = {
+      __proto__: {},
+      name: '123'
+    }
+    // {...o, ...01} 不会调用 setter
+    // Object.assign({},o1) 
+    let o4 = { ...o, ...o1, ...o2, ...o3 }
+    // Object.preventExtensions()
+    // Object.isExtensible()
+    // Object.isSealed()
+    // Object.isFrozen()
+    // Object.seal()
+    // Object.freeze()
+    // Object.keys()
+    // Object.getOwnPropertyNames()
+    // Object.setPrototypeOf()
+    // Object.getPrototypeOf()
+    // Object.values()
+    // Object.is()
+    // Object.getOwnpropertySymbols()
+    // Object.entries()
+    // Object.assign()
+    // Object.create()
+    // Onject.length
+    // Object.getOwnPropertyDescriptor()
+    // Object.defineProperty()
+    // Object.defineProperties()
+
+    // Object.prototype
+    // Object.prototype.constructor()
+    // Object.prototype.__proto__
+    // Object.prototype.__defineSetter__()
+    // Object.prototype.__defineGetter__()
+    // Object.prototype.__lookupGetter__()
+    // Object.prototype.__lookupSetter__()
+    // Object.prototype.hasOwnProperty()
+    // Object.prototype.isPrototypeOf()
+    // Object.prototype.propertyIsEnumerable()
+    // Object.prototype.toSource()
+    // Object.prototype.toString()
+    // Object.prototype.valueOf()
+  </script>
 </body>
+
 </html>
