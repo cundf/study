@@ -1,0 +1,1 @@
+(()=>{var o={351:o=>{o.exports={add:function(o,r){return o+r},print:function(){console.log("common js")}}}},r={};function n(t){var e=r[t];if(void 0!==e)return e.exports;var s=r[t]={exports:{}};return o[t](s,s.exports,n),s.exports}(()=>{let{add:o,print:r}=n(351);console.log(o(1,2)),r()})()})();
